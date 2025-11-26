@@ -1,0 +1,112 @@
+{
+  "description": "스피드런 모드 문제 세트 - 초보/고수 모드",
+  "sets": [
+    {
+      "set_id": "bronze_30min_01",
+      "name": "브론즈 스피드런 30분 - Set 1",
+      "mode": "30min",
+      "difficulty": "bronze",
+      "problems": [1000, 1001, 10998, 1008, 2557],
+      "expected_time": 1800,
+      "expected_score": 500,
+      "created_at": "2024-01-01",
+      "description": "초보자용 기본 사칙연산 문제"
+    },
+    {
+      "set_id": "bronze_30min_02",
+      "name": "브론즈 스피드런 30분 - Set 2",
+      "mode": "30min",
+      "difficulty": "bronze",
+      "problems": [1330, 9498, 2753, 14681, 2884],
+      "expected_time": 1800,
+      "expected_score": 500,
+      "created_at": "2024-01-02",
+      "description": "초보자용 조건문 문제"
+    },
+    {
+      "set_id": "bronze_30min_03",
+      "name": "브론즈 스피드런 30분 - Set 3",
+      "mode": "30min",
+      "difficulty": "bronze",
+      "problems": [2739, 10950, 8393, 15552, 2741],
+      "expected_time": 1800,
+      "expected_score": 500,
+      "created_at": "2024-01-03",
+      "description": "초보자용 반복문 문제"
+    },
+    {
+      "set_id": "bronze_60min_01",
+      "name": "브론즈 스피드런 60분 - Set 1",
+      "mode": "60min",
+      "difficulty": "bronze",
+      "problems": [1000, 1001, 10998, 1008, 2557, 1330, 9498, 2753, 2739, 10950],
+      "expected_time": 3600,
+      "expected_score": 1000,
+      "created_at": "2024-01-01",
+      "description": "초보자용 종합 문제 (입출력 + 조건문 + 반복문)"
+    },
+    {
+      "set_id": "silver_30min_01",
+      "name": "실버 스피드런 30분 - Set 1",
+      "mode": "30min",
+      "difficulty": "silver",
+      "problems": [1003, 1012, 1260, 2606, 11650],
+      "expected_time": 1800,
+      "expected_score": 700,
+      "created_at": "2024-01-01",
+      "description": "중급자용 DP + 그래프 탐색"
+    },
+    {
+      "set_id": "silver_60min_01",
+      "name": "실버 스피드런 60분 - Set 1",
+      "mode": "60min",
+      "difficulty": "silver",
+      "problems": [1003, 1012, 1260, 2606, 1463, 2667, 1927, 11399, 10828, 10773],
+      "expected_time": 3600,
+      "expected_score": 1400,
+      "created_at": "2024-01-01",
+      "description": "중급자용 종합 문제 (DP + 그래프 + 자료구조)"
+    },
+    {
+      "set_id": "gold_90min_01",
+      "name": "골드 스피드런 90분 - Set 1",
+      "mode": "90min",
+      "difficulty": "gold",
+      "problems": [1753, 1916, 11404, 2206],
+      "problem_scores": [150, 150, 150, 150],
+      "expected_time": 5400,
+      "expected_score": 780,
+      "created_at": "2024-01-01",
+      "description": "고수용 최단경로 + BFS 응용"
+    },
+    {
+      "set_id": "gold_90min_02",
+      "name": "골드 스피드런 90분 - Set 2",
+      "mode": "90min",
+      "difficulty": "gold",
+      "problems": [1238, 1504, 9370, 11657],
+      "problem_scores": [150, 150, 150, 150],
+      "expected_time": 5400,
+      "expected_score": 780,
+      "created_at": "2024-01-01",
+      "description": "고수용 다익스트라 심화"
+    },
+    {
+      "set_id": "platinum_120min_01",
+      "name": "플래티넘 스피드런 120분 - Set 1",
+      "mode": "120min",
+      "difficulty": "platinum",
+      "problems": [1753, 1916, 11404, 2206, 11438, 3176],
+      "problem_scores": [150, 150, 150, 150, 200, 200],
+      "expected_time": 7200,
+      "expected_score": 1170,
+      "created_at": "2024-01-01",
+      "description": "고수용 그래프 + LCA 종합"
+    }
+  ],
+  "rotation": {
+    "description": "시간대별 로테이션 규칙",
+    "rule": "매 정각/30분마다 다음 세트로 순환",
+    "current_index": 0
+  }
+}

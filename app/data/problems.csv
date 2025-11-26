@@ -1,0 +1,13 @@
+problem_id,title,tags,difficulty,accuracy
+1000,A+B,implementation;math,bronze,0.85
+1001,A-B,implementation;math,bronze,0.88
+1010,정수 선물,greedy;sorting,silver,0.41
+1100,체스 보드,implementation;bruteforce,silver,0.55
+1200,보석 도둑,greedy;heap;two-pointers,gold,0.34
+1300,K번째 수,binary-search;math,gold,0.29
+1400,플로이드,floyd-warshall;graph,gold,0.33
+1500,최단경로,dijkstra;graph;priority-queue,gold,0.37
+1600,말이되고픈원숭이,bfs;graph;dp,gold,0.32
+1700,멀티탭 스케줄링,greedy;simulation;queue,silver,0.44
+1800,인터넷 설치,binary-search;mst;graph,platinum,0.21
+1900,레이저 통신,bfs;graph;geometry,gold,0.31
